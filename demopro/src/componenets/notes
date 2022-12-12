@@ -1,0 +1,27 @@
+card.s => we created card wrapper to make sure that we accept incoming class named prop and that we do something with it
+
+we want to make sure the CSS class we are applying to div with the help of classname on that div, that the class is applied to the div reflect both the card class
+which we already are applying as well as any potentially incoming classes on the class named prop of this card componenet so that any class we add on the card component(AddUsers.js file)
+
+to take dynamic use input we use useState because useStater hook helps us in updating the state of that variable for which we are using input 
+
+//ADDING A USERS LIST COMPONENET
+first question is where do we wanna output and second question is depends on second 
+second question is where we then aactually manage  our list of USERS
+
+ we split the outputtig(UserList.js) and fetching(AddUsers.js)  loginc into different components
+ 
+ USERSLIST.JS   it's upto you only how we want our output data in our case we want data in form of array of users object where every user has name property
+ and age property
+
+
+ {/* through map method we are transforming our users data to JSX elements */}
+      {/* Map executes a function on every item in the users array and we will get that item as input */}
+      {/* we will write an anonymous arrow function and then in this anonymous arrow function we return a JSX element for every user of that user's array we expect to get on this prop
+        so the element(JSX element) which I wanna render is simply a list item here and inside of the list item I want to output the username
+        Let's say we expect users to be an object with a name property and then age  property with the text "years old"  so the statement will be...... */}
+      {/*  */}
+
+
+
+***********************               common componenet            ***************************

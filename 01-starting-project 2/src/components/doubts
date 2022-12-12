@@ -1,0 +1,30 @@
+// difference between empty dpendencies(APp.js) and non empty dpendencies(login.js).
+// 2
+// define exactly how we do array destructuring
+
+// which functions we can define outside of component function and which inside and why we can't define some function outside ans some inside
+
+// why we do object and array destructuring
+
+// React.createContext("What this parenthesis holds")
+
+// why consumer takes a child and why it should be only function
+
+
+// what is an event in (login.js)
+//  const submitHandler = (event) => {
+//     event.preventDefault();
+//     props.onLogin(emailState.value, passwordState.value);
+//   };
+
+// flow of this useReducer
+// const [emailState, dispatchEmail] = useReducer(emailReducer, {
+//     value: "",
+//     isValid: null,
+//   });
+
+
+//   it's syntax of object destructuring but how it actually working
+//   const {isValid: emailIsValid} = emailState;
+//   const {isValid: passwordIsValid} = passwordState;
+  

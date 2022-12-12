@@ -1,0 +1,138 @@
+const users = [
+  {
+    name: "Jesse",
+    age: 21,
+    height: "1.90cm"
+  },
+  {
+    name: "Tom",
+    age: 25,
+    height: "1.67cm"
+  },
+  {
+    name: "Anna",
+    age: 34,
+    height: "1.59cm"
+  }
+]
+
+////////////////////          const userNames = users.map(({ name }) => name)       meaning
+****item of the array****
+jesse, tom, Anna
+
+///object destructuring
+
+/////////   
+        var newArr = arr.map(function(val, index){
+            return {key:index, value:val*val};
+        })
+          
+
+
+
+
+ function canVote(age) {
+        return age >= 18;
+    }
+ 
+    function func() {
+        var filtered = [24, 33, 16, 40].filter(canVote);
+        document.write(filtered);
+    }
+
+array.filter(callback(element, index, arr), thisValue)
+
+    //////////////////     instead of it we can use arrow function directly
+    let toddlers = people.filter(person => person.age <= 3)
+    console.log(toddlers)
+
+
+
+/////////////////////    IS EVEN OR NOT
+
+    function isEven(value) {
+  return value % 2 == 0;
+}
+ 
+var filtered = [11, 98, 31, 23, 944].filter(isEven);
+print(filtered);
+
+//how to identify which syntax belongs to js or react;
+
+
+///////////////////////   in which case we can use custom component as a wrapper and when we can not??????
+
+
+
+function FilterEven (arr) {
+  {num.filter(num => num%2===0).map(filterednum => (<li>
+          {filterednum}
+        </li>)
+  }
+
+
+function MultipleBy10 (arr) {
+ // Your logic goes here 
+}
+MultipleBy10
+([1,2,3,4,5,6]) // output: [10,20,30,40,50,60] 
+
+//////////////////////////////////////********************************
+const nums = [65, 44, 12, 4];
+const newArr = nums.map(MultipleBy10 )
+
+function MultipleBy10 (num) {
+  return num * 10;
+}
+console.log(newArr);
+
+
+function MultipleBy10 (arr) {
+  return arr.map((i) => i*10);
+ }
+
+////////////////////////////
+
+ var arr = [2, 5, 6, 3, 8, 9];
+          
+        var newArr = arr.map(function(val, index){
+            return {key:index, value:val*10};
+        })
+        console.log(newArr);
+
+
+
+**********************************************************************************************
+function FilterEven (arr) {
+  // Your logic goes here 
+ }
+ FilterEven([1,2,3,4,5,6]) // output: [2,4,6] 
+
+
+////////////////////////////******************************************
+
+
+const nums = [32, 33, 16, 40];
+const result = nums.filter(FilterEven );
+
+function FilterEven (num) {
+  return num%2===0;
+}
+
+
+
+
+
+
+
+************************************************************************************************************************************************************************
+13 october dlubt
+
+1. what is good practice single useState or multiple useState
+2.ExpenseForm onsubmitHandler why we use coma reason after ending ofd every statmeent
+3. one way binding and twi way binding
+
+
+************************************************************************************************************************************************************************************
+1. child to parent component communication bottom up
+2. Each child in a list should have a unique "key" prop meaning
